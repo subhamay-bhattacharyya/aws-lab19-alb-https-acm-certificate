@@ -2,10 +2,14 @@
 
 ## Completed ✅
 
-- [x] AWS
-- [x] Amazon
+- [x] VPC
+- [x] Subnets
+- [x] Security Groups
 
 ## Pending 🏗️
 
-- [ ] Amazon
-- [ ] AWS
+- [ ] WebServers
+- [ ] Target Group
+- [ ] ALB
+- [ ] ACM
+- [ ] DNS Record
