@@ -1,7 +1,11 @@
 {
   "Environment": "devl",
-  "KmsKey": "SB-KMS",
-  "ProjectName": "cfn-nstd",
-  "BucketBaseName": "s3-nested-stack",
+  "Project": "netwk-lab16",
+  "VpcCidr": "10.18.0.0/16",
+  "PublicCidrs": "10.18.0.0/20,10.18.16.0/20",
+  "PrivateCidrs": "10.18.48.0/20,10.18.64.0/20",
+  "AmiParam": "/aws/service/ami-amazon-linux-latest/amzn2-ami-hvm-x86_64-gp2",
+  "InstanceType": "t2.micro",
+  "KeyName": "networking-lab",
   "CiSuffix": ""
 }
